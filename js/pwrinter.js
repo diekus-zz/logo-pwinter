@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var url = 'data:image/svg+xml;base64,'+btoa(getPWALogo());
         dl.href = url;
     }
+    generatePreview();
 });
 
 var getPWALogoPrev = function(){

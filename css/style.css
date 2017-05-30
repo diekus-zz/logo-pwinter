@@ -5,6 +5,14 @@ body{
     
 }
 
+#downloadLink{
+    color:#FFF;
+    background-color: #3d3d3d;
+    border-color: #3d3d3d;
+    padding:1em;
+    font-size: 1.5em;
+}
+
 #content{
     margin: 2em;
     max-width: 800px;
@@ -13,7 +21,6 @@ body{
 
 #logo{
     width: 9em;
-    margin: auto;
 }
 
 #logoSteps{
@@ -27,7 +34,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 1em;
-    padding: 2em;
+    padding: 1em 2em 4em 2em;;
 }
 
 #preview{

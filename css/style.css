@@ -35,6 +35,7 @@ body{
     justify-content: space-around;
     border-radius: 1em;
     padding: 1em 2em 4em 2em;;
+    margin: 1em;
 }
 
 #preview{

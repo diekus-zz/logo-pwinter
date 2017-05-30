@@ -2,7 +2,7 @@
 var CACHE_NAME = 'pwinter-v1';
 var urlsToCache = [
     'css/style.css',
-    'fonts/fonts.js',
+    'fonts/fonts.css',
     'fonts/SamsungOne-300.woff',
     'fonts/SamsungOne-400.woff',
     'fonts/SamsungOne-600.woff',

@@ -1,5 +1,65 @@
 body{
     font-family:'Samsung One'; 
-    margin: 0px;
+    margin: auto;
     padding: 2em;
+    color:#3D3D3D;
+    max-width: 800px;
+}
+
+.darkHome{
+    animation-name: 'darken';
+    animation-duration: 1s;
+}
+
+.lightHome{
+    animation-name: 'lighten';
+    animation-duration: 1s;
+}
+
+.logo{
+    width: 4em;
+    margin: auto;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 25em;
+}
+
+#logoSteps{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#preview{
+    margin:1em;
+    margin-top:.1em;
+    width: 100%;
+}
+
+@keyframes darken {
+    from{
+        background-color: #FFF;
+        color:#3D3D3D;
+    }
+    to {
+        background-color: #3D3D3D;
+        color: #FFF;
+    }
+}
+
+@keyframes lighten{
+    from{
+        background-color: #3D3D3D;
+        color: #FFF;
+    }
+    to {
+        background-color: #FFF;
+        color:#3D3D3D;
+    }
 }

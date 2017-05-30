@@ -9,15 +9,28 @@
         <script src="js/pwrinter.js"></script>
     </head>
     <body>
-        <div><img src="images/pwinterlogo.svg"></div>
+        <div id="header"><img class="logo" src="images/pwinterlogo.svg">
+            <h1>PWA Logo Pwinter</h1>
+        </div>
         <p>Print your PWA logo in 3 easy steps</p>
-        <h2>Choose font tone (dark/light):</h2>
-        <label><input type="radio" name="textColor" value="dark (#3D3D3D)">Dark</label>
-        <label><input type="radio" name="textColor" value="light (#FFF)">Light</label>
-        <h2>Select color to emphasize the "W" (web):</h2>
-        <input id="colorPicker" type="color" value="#706CF5">
-        <h2>Download:</h2>
-        <input id="btnGenerate" type="button" value="generate your logo!">
-        <svg id='preview' width="150" height="150"></svg>
+        <div id="logoSteps">
+            <div>
+                <h2>1. Choose font tone (dark/light):</h2>
+                <radiogroup>
+                    <label><input id="radDark" type="radio" name="textColor" value="dark (#3D3D3D)">Dark Font</label>
+                    <label><input id="radLight" type="radio" name="textColor" value="light (#FFF)">Light Font</label>
+                </radiogroup>
+            </div>
+            <div>
+                <h2>2. Select color to emphasize the "W" (web):</h2>
+                <input id="colorPicker" type="color" value="#706CF5">
+            </div>
+            <div>
+                <h2>3. Preview / Download:</h2>
+                <svg id='preview' width="150" height="150"></svg>
+                <input id="btnGenerate" type="button" value="download your logo!">
+                
+            </div>
+        <div>
     </body>
 </html>

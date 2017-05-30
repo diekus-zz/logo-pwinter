@@ -19,12 +19,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     //font color
     document.getElementById('radDark').addEventListener('change', function(){
-        document.getElementById('content').style.animationName = 'lighten';
+        document.getElementById('logoSteps').style.animationName = 'lighten';
         fontColor = '#3D3D3D';
         generatePreview();
     });
     document.getElementById('radLight').addEventListener('change', function(){
-        document.getElementById('content').style.animationName = 'darken';
+        document.getElementById('logoSteps').style.animationName = 'darken';
         fontColor = '#FFF';
         generatePreview();
     });

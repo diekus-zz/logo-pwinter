@@ -17,13 +17,15 @@ document.addEventListener('DOMContentLoaded', function() {
         //generates preview
         generatePreview();
     }
-    //page color
+    //font color
     document.getElementById('radDark').addEventListener('change', function(){
-        document.getElementsByTagName('body')[0].setAttribute('class', 'lightHome');
+        document.getElementById('content').style.animationName = 'lighten';
+        fontColor = '#3D3D3D';
         generatePreview();
     });
     document.getElementById('radLight').addEventListener('change', function(){
-        document.getElementsByTagName('body')[0].setAttribute('class', 'darkHome');
+        document.getElementById('content').style.animationName = 'darken';
+        fontColor = '#FFF';
         generatePreview();
     });
 });
@@ -34,7 +36,6 @@ var getPWALogoPrev = function(){
 };
 
 var generatePreview = function(){
-
     document.getElementById('preview').innerHTML = getPWALogoPrev();
 };
 

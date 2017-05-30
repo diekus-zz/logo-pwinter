@@ -1,32 +1,30 @@
 body{
     font-family:'Samsung One'; 
-    margin: auto;
+    margin: 0px;
+    background-color: silver;
+    
+}
+
+#content{
+    margin: 2em;
     padding: 2em;
-    color:#3D3D3D;
-    max-width: 800px;
-}
-
-.darkHome{
-    animation-name: 'darken';
-    animation-duration: 1s;
-}
-
-.lightHome{
+    color: '#3d3d3d';
     animation-name: 'lighten';
     animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    max-width: 800px;
+    margin: auto;
+    border-radius: .5em;
 }
 
-.logo{
-    width: 4em;
+#logo{
+    width: 9em;
     margin: auto;
 }
 
 #header{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 25em;
+    
 }
 
 #logoSteps{
@@ -37,9 +35,7 @@ body{
 }
 
 #preview{
-    margin:1em;
-    margin-top:.1em;
-    width: 100%;
+    margin:.1em;
 }
 
 @keyframes darken {

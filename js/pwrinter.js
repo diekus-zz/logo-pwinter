@@ -1,4 +1,3 @@
-var textfile = null;
 var pwalogo = null;
 var fontColor = '#3D3D3D';
 var wColor = '#706CF5';
